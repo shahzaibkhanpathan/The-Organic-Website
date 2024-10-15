@@ -1,0 +1,89 @@
+html{ scroll-behavior: smooth;}
+.main
+{
+    background-color: rgb(250, 242, 242);
+}
+body {
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+.navbar
+{
+    background-color: white;
+    color: gray;
+}
+.navbar-brand
+{
+    height: 4rem;
+}
+li a:hover{
+    color: green;
+}
+.fa-user
+{
+    color: gray;
+
+}
+.navbar-toggler
+{
+    color: green;
+}
+.heading4{
+    font-size: 3rem;
+}
+.image{
+   width: 100%;
+}
+.box
+{
+    background-color:black;
+    color: white;
+
+}
+.box a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.box i{
+    font-size: 1.5rem;
+}
+.center
+{
+    text-align: center;
+}
+.groceries
+{
+    text-align: center;
+}
+.groceries a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.brands{
+    background-color: rgb(250, 242, 242);
+}
+.product-card img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .groceries p, .groceries a {
+    font-size: 1rem;
+  }
+  
+
+  img {
+    max-width: 100%;
+    height: auto; /* Maintains aspect ratio */
+}
+.container {
+    max-width: 100%;
+    overflow: hidden; /* Optional, but can help */
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
